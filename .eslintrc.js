@@ -40,6 +40,12 @@ module.exports = {
         svg: 'always',
         math: 'always'
       }
+    ],
+    'vue/component-tags-order': [
+      'error',
+      {
+        order: ['script', 'template', 'style']
+      }
     ]
   },
   settings: {
